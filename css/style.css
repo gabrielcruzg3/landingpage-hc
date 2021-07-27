@@ -1,0 +1,24 @@
+*{
+    padding: 0%;
+    margin: 0;
+    background-color: #000;
+}
+
+.flex-div{
+    display: flex;
+}
+
+.section--right{
+    padding-right: 0%;
+    margin-left: 0;
+    color: #fff;
+    background-color: #f87c07;
+}
+
+.bf-text-top{
+    margin-top: 0;
+    padding-top: 0;
+    text-align: center;
+    color: #f87c07;
+    font-size:larger;
+}
