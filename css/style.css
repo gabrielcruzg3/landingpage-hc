@@ -6,19 +6,34 @@
 
 .flex-div{
     display: flex;
+    flex-wrap: wrap;
+}
+
+.section{
+
+    display: flex;
+}
+
+.image-top{
+    width: 100vw;
+    height: 100;
+	margin: 0 auto;
+	padding: 0 0 0 0px;
+    text-align: center;
+    color: #ff5100;
+    font-size: 48pt;
+}
+
+.section--left{
+    float: left;
+    margin-left: 25%;
+    color: #fff;
 }
 
 .section--right{
-    padding-right: 0%;
-    margin-left: 0;
+    float: right;
+    margin-right: 25%;
     color: #fff;
     background-color: #f87c07;
 }
 
-.bf-text-top{
-    margin-top: 0;
-    padding-top: 0;
-    text-align: center;
-    color: #f87c07;
-    font-size:larger;
-}
