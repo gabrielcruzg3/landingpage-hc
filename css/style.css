@@ -32,13 +32,13 @@
 .section--right{
     float: right;
     margin-right: 25%;
-    size: 20%
-    background-color: #f87c07;
+    size: 20%;
 }
 
 .innerForm{
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
+    width: 100%;
+    height: 100%;
+    margin-right: 10px;
     
 }
 
