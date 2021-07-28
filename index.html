@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/script.js"></script>
 </head>
 <body>
     <div class="flex-div">
@@ -50,27 +51,27 @@
 
             <section class="section--right">
                 
-                <form action="" method="post">
+                <form id="form-bf" method="GET">
                     <ul>
-                        <p placeholder="Nome">
+                        <p>
                             Como podemos te chamar?                   
-                        <input class="" type="password" name="senha">
+                        <input class="" type="name" id="nome">
                     </ul>
                     
                     <br>
                     <ul>
                         <p>
                              Digite seu melhor Email:
-                            <input class="form-control" type="user" name="user">
+                            <input class="" type="email" id="email">
                         </p>
                     </ul>
                     
                     <br>
 
                     <ul>
-                        <button type="button" value="send" class="send-btn" >Enviar
+                        <input type="submit" value="Enviar" onclick="cadastraUser()" class="send-btn">
                             
-                        </button>
+                       
                     </ul>
                            
                 </form>
