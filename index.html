@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="stylesheet" href="/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="/js/script.js"></script>
 </head>
 <body>
@@ -13,7 +14,7 @@
         <section class="top">
             <div>
                 <p class="image-top">
-                   <img src="/assets/bf2.jpg" alt="Black Friday Logo" height="100px">
+                   <img src="/assets/bf5.png" alt="Black Friday Logo" height="100px">
                 </p>
             </div>
 
@@ -23,7 +24,7 @@
 
             <section class="section--left">
                 <div class="left">
-                    <img class="image-bf" src="/assets/bf1.jpg" alt="Imagem Black Friday" width="360px">
+                    <img class="image-bf" src="/assets/bf4.jpg" alt="Imagem Black Friday" width="360px">
 
                     <div class="text-left">
                         <ul>
@@ -42,8 +43,10 @@
 
                             <br>
 
-                            </ul>                           
-                               Não perca tempo e preencha o formulário para não perder as ofertas!                      
+                            </ul>  
+                            <p>                        
+                               Não perca tempo e preencha o formulário para não perder as ofertas!      
+                             </p>                
                         </ul>
                     </div>
                 </div>
@@ -51,37 +54,40 @@
 
             <section class="section--right">
                 
-                <form id="form-bf" method="GET">
-                    <ul>
-                        <p>
-                            Como podemos te chamar?                   
-                        <input class="" type="name" id="nome">
-                    </ul>
-                    
-                    <br>
-                    <ul>
-                        <p>
-                             Digite seu melhor Email:
-                            <input class="" type="email" id="email">
-                        </p>
-                    </ul>
-                    
-                    <br>
+                <form id="form-bf" method="GET" class="">
+                    <div class="innerForm mb-3">
+                        <ul>
+                            <p class="form-label">
+                                Como podemos te chamar? </p>                  
+                            <input type="name" id="nome" class="form-control">
+                        </ul>
+                        
+                        <br>
+                        <ul>
+                            <p>
+                                Digite seu melhor Email: </p>
+                                <input class="email form-control" type="email" id="email">
+                           
+                        </ul>
+                        
+                        <br>
 
-                    <ul>
-                        <input type="submit" value="Enviar" onclick="cadastraUser()" class="send-btn">
-                            
-                       
-                    </ul>
+                        <ul>
+                            <input type="submit" value="Enviar" onclick="cadastraUser()" class="send-btn btn btn-outline-primary btn-block">
+                                
+                        
+                        </ul>
+                </div>
                            
                 </form>
                  <br>
+                 <ul>
                 <p>
                     <li>
                         Ao preencher o formulário, concordo * em receber comunicações de acordo com meus interesses.
                     </li>
                 </p>
-                
+                </ul>
                 
             </section>
 
